@@ -55,8 +55,7 @@ export function getToolContent(locale: Locale, toolId: string): ToolContent | un
   };
 
   // Map zh-TW to zh (use Simplified Chinese content for Traditional Chinese)
-  const effectiveLocale: Exclude<Locale, 'zh-TW'> =
-    locale === 'zh-TW' ? 'zh' : locale;
+  const effectiveLocale: Locale = locale;
 
   const localeContent = contentMap[effectiveLocale];
   if (localeContent && localeContent[toolId]) {
