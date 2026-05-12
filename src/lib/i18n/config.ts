@@ -21,7 +21,7 @@ export const localeConfig: Record<Locale, {
   // es: { name: 'Spanish', nativeName: 'Español', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
   // fr: { name: 'French', nativeName: 'Français', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
   // de: { name: 'German', nativeName: 'Deutsch', direction: 'ltr', dateFormat: 'DD.MM.YYYY' },
-  zh: { name: 'Chinese', nativeName: '中文', direction: 'rtl', dateFormat: 'YYYY/MM/DD' },
+  zh: { name: 'Chinese', nativeName: '中文', direction: 'ltr', dateFormat: 'YYYY/MM/DD' },
   // pt: { name: 'Portuguese', nativeName: 'Português', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
   // ar: { name: 'Arabic', nativeName: 'العربية', direction: 'rtl', dateFormat: 'DD/MM/YYYY' },
   // it: { name: 'Italian', nativeName: 'Italiano', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
