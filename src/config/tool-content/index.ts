@@ -30,8 +30,8 @@ import { toolContentId } from './id';
 import { toolContentVn } from './vi';
 import { ToolContent } from '@/types/tool';
 
-export type Locale = 'en' | 'ja' | 'ko' | 'es' | 'fr' | 'de' | 'zh' | 'zh-TW' | 'pt' | 'ar' | 'it' | 'id' | 'vi';
-
+// export type Locale = 'en' | 'ja' | 'ko' | 'es' | 'fr' | 'de' | 'zh' | 'zh-TW' | 'pt' | 'ar' | 'it' | 'id' | 'vi';
+export type Locale = 'en' | 'zh';
 /**
  * Get tool content for a specific locale
  * Falls back to English if translation not found
