@@ -348,11 +348,11 @@ export class GridCombineProcessor extends BasePDFProcessor {
                     const item = pageSubset[cellIdx];
 
                     // Calculate position in grid
-                    // PDF坐标系原点在左下角，Y轴向上
+                    // PDF座標系原點在左下角，Y軸向上
                     const col = cellIdx % cols;
                     const row = Math.floor(cellIdx / cols);
                     const cellX = margin + col * (cellWidth + spacing);
-                    // 从顶部开始排列，第一行在最上面
+                    // 從頂部開始排列，第一行在最上面
                     const cellY = pageHeight - margin - cellHeight - row * (cellHeight + spacing);
 
                     // Calculate scale to fit in cell

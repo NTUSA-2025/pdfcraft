@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 import { Home, Wrench, HelpCircle, FileText, GitBranch } from 'lucide-react';
 import { type Locale } from '@/lib/i18n/config';
 
-// 动态导入 WorkflowEditor 以避免 SSR 问题（ReactFlow 需要 window 对象）
+// 動態匯入 WorkflowEditor 以避免 SSR 問題（ReactFlow 需要 window 物件）
 const WorkflowEditor = dynamic(
     () => import('@/components/workflow/WorkflowEditor').then(mod => mod.WorkflowEditor),
     {

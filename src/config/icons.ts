@@ -57,7 +57,7 @@ import {
     FileKey,
     FileLock,
     LucideIcon,
-    // 新增文件格式图标
+    // 新增檔案格式圖示
     FileSpreadsheet,
     Presentation,
     FileBox,
@@ -132,7 +132,7 @@ export const ICON_MAP: Record<string, LucideIcon> = {
     'key': Key,
     'file-key': FileKey,
     'file-lock': FileLock,
-    // 文件格式专用图标
+    // 檔案格式專用圖示
     'file-spreadsheet': FileSpreadsheet,
     'presentation': Presentation,
     'file-box': FileBox,
