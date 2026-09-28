@@ -35,7 +35,7 @@ export type Locale = 'en' | 'zh';
 /**
  * Get tool content for a specific locale
  * Falls back to English if translation not found
- * zh-TW falls back to zh (Simplified Chinese) content
+ * zh-TW falls back to zh (Traditional Chinese) content
  * ar falls back to en content for now
  */
 export function getToolContent(locale: Locale, toolId: string): ToolContent | undefined {
@@ -54,7 +54,7 @@ export function getToolContent(locale: Locale, toolId: string): ToolContent | un
     vi: toolContentVn,
   };
 
-  // Map zh-TW to zh (use Simplified Chinese content for Traditional Chinese)
+  // Map zh-TW to zh (use Traditional Chinese content)
   const effectiveLocale: Locale = locale;
 
   const localeContent = contentMap[effectiveLocale];

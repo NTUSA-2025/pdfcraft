@@ -322,7 +322,7 @@ function computeTextWatermarkPosition(
   // Half of text width/height, baseline offset for text drawing
   const textWidthHalf = textWidth / 2;
   const textHeightHalf = textHeight / 2;
-  const baselineOffset = textHeight * 0.25; // 基线向下调整的偏移值
+  const baselineOffset = textHeight * 0.25; // 基準線向下調整的偏移值
 
   // Basic unrotated coordinates for text center alignment (with baseline offset)
   const baseX = centerX - textWidthHalf;
